@@ -1,0 +1,5 @@
+# we can not create dockerfile for mariadb without create dockerfile we can lauch and run container through command
+# For mariadb container run command 
+                                    docker build -d -p 3306:3306 --name mariadb -e MYSQL_ROOT_PASSWORD=12345 mariadb
+  after run this command check image using  docker images and docker ps -a for check runnging container
+  
